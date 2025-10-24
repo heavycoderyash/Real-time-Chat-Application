@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const URL = 'http://localhost:5001';
+const URL = 'https://realtime-chat-backend-dvxw.onrender.com';
 
 export const socket = io(URL, {
   autoConnect: false,

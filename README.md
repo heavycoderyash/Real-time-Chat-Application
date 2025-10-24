@@ -175,7 +175,7 @@ The backend requires environment variables for configuration.
     JWT_SECRET=your_strong_random_jwt_secret_here
 
     # JWT Token Expiration (e.g., 7d, 24h)
-    JWT_EXPIRE=7d
+    JWT_EXPIRE=30d
 
     # Frontend URL (for CORS - typically http://localhost:5173 for Vite dev server)
     CLIENT_URL=http://localhost:5173
